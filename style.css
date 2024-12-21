@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(15, 127, 213);
+    color: white;
+}
+header{
+    text-align: center;
+    background-color: rgb(169, 16, 111);
+    color: white;
+    padding: 20px 0;
+}
+h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.play{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    
+}
+#player1,#computer{
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+    
+
+#move1{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+}
+.buttons{
+    text-align: center;
+    
+}
+button{
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: #6c63ff;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #5753c9;
+    transform: scale(1.1);
+}
+@media(max-width: 768px){
+    h1{
+        font-size: 40px;
+    }
+    #player1,#computer{
+        font-size: 24px;
+    }
+    button{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+}
